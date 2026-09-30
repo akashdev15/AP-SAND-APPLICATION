@@ -45,7 +45,7 @@ export class Generatreciptepage{
         await this.page.goto("https://ap-sand-govt.web.app/receipts/new")
     }
 
-    async sand_details(tripno:string,customername:string,customerphnumber:string,constructorname:string,adress:string,sandquantity:string,sandsupplypointname:string,availablesand:string,regestrationadress:string,drivername:string,drivermobilenumber:string,
+    async Sanddetails(tripno:string,customername:string,customerphnumber:string,constructorname:string,adress:string,sandquantity:string,sandsupplypointname:string,availablesand:string,regestrationadress:string,drivername:string,drivermobilenumber:string,
         vehicalplatenumber:string)
     {
         await this.generaterecipt.click();

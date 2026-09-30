@@ -1,6 +1,6 @@
 export const logindetails = { 
-    email_id:"akashkumarreddy.b@gmail.com",
-    password:"akash@2008",
+    email_id:"reddy123@gmail.com",
+    password:"reddykumar@123",
 }
 
 export const sandetails={
@@ -16,4 +16,12 @@ export const sandetails={
     drivermobilenumber:"9876543210",
     vehicalplatenumber:"AP16CD105",
     
+}
+
+export const sinindetails={
+    name:"reddy",
+    emailid:"reddy@123",
+    mobilenumber:"6300470677",
+    password:"reddykumar@123",
+    confirmpass:"reddykumar@123"
 }
