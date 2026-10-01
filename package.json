@@ -1,10 +1,21 @@
 {
   "name": "ap-sand-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "AP Sand Playwright Automation ",
   "main": "index.js",
-  "scripts": {},
-  "keywords": [],
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "test:report": "npx playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "typescript"
+  ],
+  "author": "Akshay",
+  "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
     "@playwright/test": "^1.63.0",

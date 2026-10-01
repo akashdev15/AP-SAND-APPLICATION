@@ -1,4 +1,4 @@
-import {Page , Locator} from "@playwright/test";
+/*import {Page , Locator} from "@playwright/test";
 
 export class Registrationpage{
     page:Page;
@@ -25,7 +25,7 @@ export class Registrationpage{
     }
 
     async createonepage(){
-        await this.page.goto(`/sinup`)
+        await this.page.goto(`/signup`)
     }
 
     async sinupdetails(name:string,emailid:string,mobilenumber:string,password:string,confirmpass:string){
@@ -45,3 +45,4 @@ export class Registrationpage{
 
     }
 }
+    */

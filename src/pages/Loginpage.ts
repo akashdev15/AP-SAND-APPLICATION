@@ -1,16 +1,20 @@
 import {Page , Locator} from "@playwright/test";
 
 export class Loginpage{
-    page:Page;
-    email_id:Locator;
-    password:Locator;
-    login_button:Locator;
+    readonly page:Page;
+    readonly email_id:Locator;
+    readonly password:Locator;
+    readonly login_button:Locator;
+    readonly loginerror:Locator;
+    
 
     constructor(page:Page){
         this.page=page;
         this.email_id=page.locator("#email");
         this.password=page.locator("#password");
         this.login_button=page.getByRole("button",{name:"Login"});
+        this.loginerror = page.getByText("Unable to login. Please check your email and password."
+);
 
     }
     async firstpage(){
