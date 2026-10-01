@@ -29,6 +29,7 @@ export class Registrationpage{
     }
 
     async sinupdetails(name:string,emailid:string,mobilenumber:string,password:string,confirmpass:string){
+        await this.createonepage();
         await this.createone.click();
         await this.name.click();
         await this.name.fill(name);

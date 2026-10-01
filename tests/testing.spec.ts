@@ -13,7 +13,7 @@ test.describe("AP SAND APPLICATION",()=>{
         await loginpage.secondpage();
         await expect(page).toHaveURL("https://ap-sand-govt.web.app/dashboard");
         await generatreciptepage.thirdpage();
-        await generatreciptepage.Sanddetails(sandetails.tripno,sandetails.customername,sandetails.customernumber,sandetails.adress,sandetails.sandquantity,sandetails.sandsupplypointname,sandetails.availablesand,sandetails.regestrationadress,sandetails.drivername,sandetails.drivermobilenumber,sandetails.vehicalplatenumber)
+        await generatreciptepage.Sanddetails(sandetails.tripno,sandetails.customername,sandetails.customerphnumber,sandetails.constructorname,sandetails.adress,sandetails.sandquantity,sandetails.sandsupplypointname,sandetails.availablesand,sandetails.regestrationadress,sandetails.drivername,sandetails.drivermobilenumber,sandetails.vehicalplatenumber)
         await registrationpage.createonepage();
         await registrationpage.sinupdetails(sinindetails.name,sinindetails.emailid,sinindetails.mobilenumber,sinindetails.password,sinindetails.confirmpass)
 

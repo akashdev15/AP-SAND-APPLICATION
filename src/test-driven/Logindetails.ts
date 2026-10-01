@@ -6,7 +6,8 @@ export const logindetails = {
 export const sandetails={
     tripno:"3",
     customername:"akash",
-    customernumber:"1234567890",
+    customerphnumber:"1234567890",
+    constructorname:"akshay",
     adress:"andhra pradesh, \nkadapa district, \npulivendula, \nsai baba road.",
     sandquantity:"100",
     sandsupplypointname:"ziraf supplies",
