@@ -3,7 +3,7 @@ import { logindetails , sandetails , sinindetails } from "../src/test-driven/Log
 
 test.describe("AP SAND APPLICATION",()=>{
 
-    test("Loginpage",async({loginpage,page,generatreciptepage,registrationpage})=>{
+    test("Loginpage",async({loginpage,page,generatreciptepage})=>{
 
         console.log("Going through the url..........")
 
